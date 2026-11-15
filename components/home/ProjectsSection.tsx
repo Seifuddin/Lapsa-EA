@@ -70,7 +70,7 @@ export default function ProjectsSection() {
 
           {/* Featured project */}
           <Link
-            href="/projects"
+            href="https://makyn.vercel.app"
             className="group relative overflow-hidden rounded-2xl border border-border bg-surface"
           >
             <div className="relative aspect-[16/10] overflow-hidden bg-surface-muted">
@@ -103,11 +103,11 @@ export default function ProjectsSection() {
             </div>
           </Link>
 
-          {/* Supporting projects */}
+          {/* Supporting projects  */}
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
             {projects.slice(1).map((project) => (
               <Link
-                href="/projects"
+                href="https://josrobridgeinternational.vercel.app" 
                 key={project.number}
                 className="group grid grid-cols-[112px_1fr] gap-4 overflow-hidden rounded-2xl border border-border bg-surface p-3 transition-colors hover:border-primary/30 sm:grid-cols-[140px_1fr] lg:grid-cols-[160px_1fr]"
               >
@@ -120,6 +120,8 @@ export default function ProjectsSection() {
                     sizes="(max-width: 1024px) 40vw, 180px"
                   />
                 </div>
+
+                
 
                 <div className="flex min-w-0 flex-col justify-center py-1">
                   <span className="text-[9px] font-bold tracking-widest text-accent">
