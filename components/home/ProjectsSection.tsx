@@ -10,7 +10,7 @@ const projects = [
     category: "Corporate Website",
     description:
       "A professional digital presence for a construction company, showcasing its services, projects and expertise.",
-    image: "/images/projects/makyn-preview.jpg",
+    image: "/images/projects/hero.jpg",
     size: "featured",
   },
   {
@@ -19,7 +19,7 @@ const projects = [
     category: "Education & Consultancy",
     description:
       "A digital platform connecting people with education and international career opportunities.",
-    image: "/images/projects/josro-preview.jpg",
+    image: "/images/projects/hero.jpg",
     size: "small",
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     category: "Technology & Software",
     description:
       "Exploring practical digital products and technology solutions for modern businesses.",
-    image: "/images/projects/lapsa-preview.jpg",
+    image: "/images/projects/hero.jpg",
     size: "small",
   },
 ];
