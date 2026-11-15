@@ -11,7 +11,6 @@ export default function HomePage() {
   return (
     <>
       <HeroSection />
-      <IntroductionSection />
       <ServicesSection />
       <ProductsSection />
       <IndustriesSection />
