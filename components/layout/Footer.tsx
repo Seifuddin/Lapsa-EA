@@ -4,9 +4,6 @@ import {
   ArrowUpRight,
   ArrowRight,
   Globe2,
-  Linkedin,
-  Instagram,
-  Facebook,
 } from "lucide-react";
 
 const navigation = [
