@@ -3,6 +3,8 @@ import IndustriesSection from "@/components/home/IndustriesSection";
 import IntroductionSection from "@/components/home/IntroductionSection";
 import ProductsSection from "@/components/home/ProductsSection";
 import ServicesSection from "@/components/home/ServicesSection";
+import WhyLapsaSection from "@/components/home/WhyLapsaSection";
+import ProjectsSection from "@/components/home/ProjectsSection";
 
 export default function HomePage() {
   return (
@@ -12,6 +14,8 @@ export default function HomePage() {
       <ServicesSection />
       <ProductsSection />
       <IndustriesSection />
+      <WhyLapsaSection />
+      <ProjectsSection />
     </>
   );
 }
